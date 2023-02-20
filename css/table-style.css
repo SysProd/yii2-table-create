@@ -1,0 +1,176 @@
+.table-price
+{
+    width: 100%;
+    background: #fff;
+}
+.table-price thead
+{
+
+}
+.table-price thead tr
+{
+    background: #F3BB1C;
+}
+.table-price thead tr th
+{
+    vertical-align: middle;
+    text-align: center;
+    border-right: 1px solid #F9DD2A;
+    padding: 9px 0;
+}
+.table-price thead tr th:last-child
+{
+    border-right: none;
+}
+.table-price thead tr th:first-child
+{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: "RobotoBold";
+    width: 56.5%;
+}
+.table-price thead tr th .o
+{
+    font-size: 20px;
+    font-family: "Roboto-Black";
+}
+.table-price thead tr th .c
+{
+    font-size: 14px;
+    color: #666666;
+}
+.table-price tbody
+{
+
+}
+.table-price tbody tr
+{
+
+}
+.table-price tbody tr:hover
+{
+    cursor: pointer;
+    background: #FEF6DB;
+    box-shadow: 0 0 0 3px #EEBB23
+}
+.table-price tbody tr:hover td
+{
+    border-top: 3px solid #EEBB23;
+    border-bottom: 3px solid #EEBB23;
+}
+.table-price tbody tr:hover td:first-child
+{
+    border-left: 3px solid #EEBB23;
+}
+.table-price tbody tr:hover td:last-child
+{
+     border-right: 3px solid #EEBB23;
+}
+.table-price tbody tr td:first-child
+{
+    width: 56.5%;
+}
+.table-price tbody tr td
+{
+      text-align: center;
+    vertical-align: middle;
+    border-right: 1px dotted #DCDCDC;
+    border-bottom: 2px solid #F9F9F9;
+    border-top: 3px solid #F9F9F9;
+    padding: 19px 0;
+
+}
+.table-price tbody tr td:last-child
+{
+    border-right: none;
+}
+.table-price tbody tr td:first-child
+{
+    text-align: left;
+    padding-left: 2%;
+}
+.table-price tbody tr .icon
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+.table-price tbody tr .desk
+{
+    display: inline-block;
+    vertical-align: middle;
+    width: 73%;
+    margin-left: 4%;
+}
+.table-price tbody tr .desk .name
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "RobotoMedium";
+    margin: 9px 0 -3px 0;
+}
+.table-price tbody tr .desk .type
+{
+    font-size: 18px;
+    color: #ffae00;
+    margin-bottom: 7px;
+}
+.table-price tbody tr .desk li
+{
+    font-size: 14px;
+    color: #666666;
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 18px;
+    line-height: 1.6;
+	margin:0;
+}
+.table-price tbody tr .desk li:before
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: url('./point.png');
+}
+.table-price tbody tr .pr1
+{
+    font-size: 24px;
+    color: #ffae00;
+    font-family: "RobotoBold";
+}
+.table-price tbody tr  .sep
+{
+    width: 60px;
+    background: #DCDCDC;
+    height: 1px;
+    margin: 10px auto;
+}
+.table-price tbody tr .car
+{
+
+}
+.table-price tbody tr .car a
+{
+    
+}
+.table-price tbody tr .car a img:last-child
+{
+    display:none;
+}
+.table-price tbody tr .car a:hover img:first-child
+{
+    display:none;
+}
+.table-price tbody tr .car a:hover img:last-child
+{
+    display:inline-block;
+}
+.table-price tbody tr .sh
+{
+    font-size: 18px;
+}
+.table-price tbody tr td img
+{
+    width: 113px;
+    height: 113px;
+    border-radius: 30px;
+}
